@@ -1,0 +1,35 @@
+.backModal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 20;
+    background-color: rgba(9, 17, 12, 0.7);
+  }
+  
+  .modal{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 50px;
+    margin: 100px 50px 0 50px;
+    -webkit-box-shadow: 1px 1px 20px 10px rgba(0,0,0,0.62); 
+    box-shadow: 1px 1px 20px 10px rgba(0,0,0,0.62);
+    position: relative;
+  }
+  
+  .modal--button{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: -15px;
+    right:-15px
+  }
