@@ -28,3 +28,6 @@ You can render the modal in your component with
     htmlTextModal: string of the text on the modal
     modalIsActive: boolean
     handleActiveModal: useState function
+
+## Example
+![alt text](screenshot.png)
